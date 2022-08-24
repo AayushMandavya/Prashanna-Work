@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    
+  
+} 
+.logo{
+    height: 60px;
+    width: 60px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight:bold ;
+}
+
+nav ul li a:hover{
+    color:red;
+    transition: .3s;
+}
+
+button{
+    border: none;
+    background: red;
+    padding:12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+
+}
+button:hover{
+    transform:scale(1.1);
+    cursor:pointer;
+}
+
+.frontimage{
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.frontcontainer{
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+    padding-bottom: 5px;
+    place-content: center;
+
+   
+}
+h1{
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: uppercase;
+    padding-bottom: 35px;
+}
+
+.frontcontainer ul li{
+    padding-top: 10px;
+    list-style-type: none; 
+  
+}
+.OpeningHours{
+ 
+    position: relative;
+    display: flex;
+    padding-top: 55px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.mainbtn{
+ 
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.socialmedia{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.socialmedia ul li{
+
+ margin: 0;
+padding: 0;
+list-style: none;
+display: inline-block;
+}
+
+.socialmedia ul li a{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    background: linear-gradient(0deg, rgba(221, 221, 221, 0.412), #fff);
+    transition: .5s;
+}
+
+.socialmedia ul li a:hover{
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.socialmedia ul li a .fa{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(80px - 12px);
+    font-size: 40px;
+    color: #262626;
+    transition: .5s;
+}
+ .socialmedia ul li:nth-child(1) a:hover .fa
+{
+    color: #3b5999;
+}
+.socialmedia ul li:nth-child(2) a:hover .fa
+{
+    color: #55acee;
+}
+.socialmedia ul li:nth-child(3) a:hover .fa
+{
+    color: #dd4b39;
+}
+.socialmedia ul li:nth-child(4) a:hover .fa
+{
+    color: #0077B5;
+}
+.socialmedia ul li:nth-child(5) a:hover .fa
+{
+    color: #e4405f;
+}
+
+.ourlocation{
+    position: relative;
+    padding-top: 55px;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.location{
+    position: relative;
+    padding-top: 55px;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+}
